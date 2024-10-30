@@ -1,0 +1,91 @@
+﻿#id_gallery, #id_gallery_latest
+{
+	width: 100%;
+	border: 0 #000000 none;
+	border-collapse: collapse;
+	margin-top: 10px;
+}
+#id_gallery td, #id_gallery_latest td
+{
+	border: 0 #000000 none;
+	border-collapse: collapse;
+	vertical-align: top;
+	text-align: center;
+	padding: 4px 2px 4px 2px;
+}
+.id_title
+{
+	width: 100%;
+	text-align: center;
+	padding: 1px 0 4px 0;
+	/*font-size: 1em !important;*/
+	font-weight: bold;
+}
+.id_caption
+{
+	width: 100%;
+	text-align: center;
+	padding: 1px 0 4px 0;
+	/*font-size: 0.8em !important;
+	font-weight: normal;*/
+}
+#id_page_navigation
+{
+	text-align: center;
+	margin-top: 10px;
+}
+#id_page_navigation_list
+{
+	margin: 2px auto 2px auto;
+}
+#id_page_navigation_list > li
+{
+	list-style-type: none;
+	display:-moz-inline-stack;
+	display: inline-block;
+	width: 10px;
+	margin: 0 2px 0 2px;
+}
+* html #id_page_navigation_list > li
+{
+	display: inline;
+}
+* + html #id_page_navigation_list > li
+{
+	display: inline;
+}
+li.id_current_page a
+{
+	text-decoration: none !important;
+}
+#id_page_navigation_list > li > a
+{
+	display: inline;
+	text-decoration: underline;
+	width: 100%;
+}
+#id_album_names
+{
+	width: 100%;
+	text-align: center;
+}
+#id_album_names_list
+{
+	margin:10px auto 2px auto;
+}
+#id_album_names_list > li
+{
+	list-style-type: none;
+	display:-moz-inline-stack;
+	display: inline-block;
+	width: 100px;
+	vertical-align: middle;
+}
+* html #id_album_names_list > li
+{
+	display: inline;
+}
+* + html #id_album_names_list > li
+{
+	display: inline;
+}
